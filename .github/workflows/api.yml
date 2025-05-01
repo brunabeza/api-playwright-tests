@@ -34,7 +34,7 @@ jobs:
 
       - name: Run Playwright API tests
         run: |
-          npx playwright test --reporter=html
+          npx playwright test
           
       - name: Store Playwright HTML Report
         uses: actions/upload-artifact@v4
