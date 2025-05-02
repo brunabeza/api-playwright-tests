@@ -90,6 +90,9 @@ This project uses GitHub Actions to:
 
 HTML reports are automatically generated in the `/reports` directory after each test run.
 
+![image](https://github.com/user-attachments/assets/b3e77519-e1d8-4e2e-a3a2-1e7e3180a2d8)
+
+
 ---
 
 ## 🧼 .gitignore
