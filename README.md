@@ -82,6 +82,10 @@ This project uses GitHub Actions to:
 - Run tests on every `push` and `pull request` to `main` and `develop` branches.
 - Publish the test report to GitHub Pages on the `gh-pages` branch.
 
+![image](https://github.com/user-attachments/assets/0edb749e-4884-4d39-9228-d5bb75b6e4ab)
+![image](https://github.com/user-attachments/assets/a311a20a-87ba-4aed-998a-bc33b8050a08)
+![image](https://github.com/user-attachments/assets/d4349628-994b-4a91-8925-83995cf999df)
+
 ### 🔗 [View Playwright Report](https://brunabeza.github.io/apiTests)
 
 ---
@@ -91,7 +95,12 @@ This project uses GitHub Actions to:
 HTML reports are automatically generated in the `/reports` directory after each test run.
 
 ![image](https://github.com/user-attachments/assets/b3e77519-e1d8-4e2e-a3a2-1e7e3180a2d8)
+![image](https://github.com/user-attachments/assets/a9516c05-5fd9-48e3-97d0-2936aae530d8)
 
+---
+## Pull Request 
+In the Pull request, when the test finishes its execution, you can access the report:
+![image](https://github.com/user-attachments/assets/f563d121-5d1c-41e7-823e-76bb2b314282)
 
 ---
 
