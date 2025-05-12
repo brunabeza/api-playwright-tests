@@ -19,15 +19,15 @@ test('@positive POST - Create a new post success', async ({ request }) => {
     data: newPost
   })
 
-  expect(response.status()).toBe(201);
-  const body = await response.json();
-  expect(body.title).toBe(newPost.title);
-  expect(body.body).toBe(newPost.body);
-  expect(body.userId).toBe(newPost.userId);
+  expect(response.status()).toBe(201)
+  const body = await response.json()
+  expect(body.title).toBe(newPost.title)
+  expect(body.body).toBe(newPost.body)
+  expect(body.userId).toBe(newPost.userId)
 })
 
 test('@positive PUT - Update existing post', async ({ request }) => {
-  const updatedPost = generateRandomPost();
+  const updatedPost = generateRandomPost()
 
   const response = await request.put(`/posts/1`, {
     data: updatedPost
