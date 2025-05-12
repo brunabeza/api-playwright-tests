@@ -1,11 +1,11 @@
-const { faker } = require('@faker-js/faker');
+const { faker } = require('@faker-js/faker')
 
 function generateRandomPost() {
   return {
     title: faker.lorem.sentence(),
     body: faker.lorem.paragraph(),
-    userId: faker.number.int({ min: 1, max: 10 }) // ou um valor fixo se preferir
-  };
+    userId: faker.number.int({ min: 1, max: 10 }) 
+  }
 }
 
-module.exports = { generateRandomPost };
+module.exports = { generateRandomPost }
