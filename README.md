@@ -32,8 +32,8 @@ This project contains automated API tests using [Playwright](https://playwright.
 
 1. **Clone the repository**
 ```bash
-git clone https://github.com/brunabeza/apiTests.git
-cd apiTests
+git clone https://github.com/brunabeza/api-playwright-tests
+cd api-playwright-tests
 ```
 
 2. **Install dependencies**
@@ -48,7 +48,7 @@ npx playwright test
 
 4. **Open the HTML report**
 ```bash
-npx playwright show-report
+npx playwright show-report reports
 ```
 
 ---

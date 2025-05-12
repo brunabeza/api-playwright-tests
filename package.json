@@ -4,7 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "npx playwright test tests/api/"
+    "test": "npx playwright test tests/api/",
+    "test:positive": "npx playwright test --grep @positive tests/api/",
+    "test:negative": "npx playwright test --grep @negative tests/api/",
+    "test:report": "npx playwright show-report reports",
   },
   "keywords": [],
   "author": "",
